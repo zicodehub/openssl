@@ -1,4 +1,4 @@
 # openssl
 TP de cryptographie avec openssl
 
-git clone htpps://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@github.com/zicodehub/openssl
+git clone https://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@github.com/zicodehub/openssl
