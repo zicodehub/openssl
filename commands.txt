@@ -1,5 +1,6 @@
 ######### PARTIE 1 ###############################
 
+
 ### Utilisateur A
 # 1- Générer une paire de clés
 openssl genrsa -out paireA.pem 2048
@@ -55,4 +56,8 @@ openssl rsautl -decrypt -in crypt_password.txt -pubin -inkey publicA.pem clair_p
 # 3- Décrypter le crypt_gros_fic.file
 openssl enc -d -des3 -in crypt_gros_fic.file -out clair_gros_fic.file
 
+<<<<<<< HEAD
 # Voilà FIN
+=======
+# Voilà FIN
+>>>>>>> b2d6a1a357c91f4d5728d713867a8e77e2f23b96
